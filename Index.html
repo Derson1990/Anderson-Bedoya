@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Acuario pesKoi</title>
+</head>
+<header>
+    <div class="barra-navegacion">
+      <p class="logo">PECES <span style="color: rgb(59, 166, 216)">PesKoi</span></p>
+      <nav>
+        <a href="">Inicio</a>
+        <a href="">Tablas</a>
+        <a href="">Video</a>
+        <a href="">Formulario</a>
+      </nav>
+      <p class="menu">MENU</p>
+    </div>
+    <div class="titulos">
+        <p>¿Te gustaria saber como cuidar a tus peces?</p>
+        <hr class="separador" />
+        <h1>Aquí te enseñamos</h1>
+        <a href="#segunda" class="btn-ppal">más información</a>
+      </div>
+</header>
+
+<body>
+    <div class="segunda" id="segunda">
+        <p class="frase">
+          "Es importante que sepa de acuerdo al tipo de pez cuales son los habitat y su alimentación base."
+        </p>
+        <p class="frase">Te lo mostramos en esta tabla</p>
+      </div>
+
+    <table  border="1" cellspacing="10"class="table">
+        <thead>
+          <tr bgecolor="olive">
+            <th scope="col">Nombre de pez</th>
+            <th scope="col">Tipo de alimentación</th>
+            <th scope="col">Hábitat</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Salmon</th>
+            <td>Carnívoro</td>
+            <td>Rios y mares</td>
+    
+          </tr>
+          <tr>
+            <th scope="row">Guppy</th>
+            <td>Omnívoro</td>
+            <td>Agua dulce</td>
+          </tr>
+          <tr>
+            <th scope="row">Tiburon martillo</th>
+            <td> Carnívoro</td>
+            <td>Océanos tropicales</td>
+          </tr>
+        </tbody>
+      </table>
+
+    <video class= "video" width:"320" height="240"  controls> 
+        <source src="video/peces.mp4" type="video/mp4">
+    </video>
+
+    <div class="tercera">
+        <div class="titulo">
+          <h2>Registrate para tener mayor información</h2>
+          <form>
+            <h1>Formulario</h1>
+            <br>
+      
+              <p>Ingresa nombre: <input type="text" placeholder="Nombre" ></p>
+              <br /><br>
+              <p>Ingresa direccion: <input type="text" placeholder="Direccion"></p>
+              <br /><br>
+              <p>Ingresa telefono: <input type="text" placeholder="Telefono" ></p>
+              <br /><br>
+              <p>Ingresa correo: <input type="text" placeholder="Correo" ></p>
+              <br /><br>
+              <p>Ingresa edad: <input type="text" placeholder="Edad"></p>
+              <br /><br>
+              <input type="submit" value="Enviar Formulario"/>
+              <br /><br>
+          </form>
+        </div>
+
+    <footer>
+        <p class="logo">PECES <span style="color: rgb(57, 198, 223)">PesKoi</span></p>
+        <p>
+          Medellin, Colombia | Anderson Bedoya 
+        </p>
+        <p>Copyrigth 2023</p>
+      </footer>
+</body>
+</html>
